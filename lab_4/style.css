@@ -1,4 +1,4 @@
-/* Елементи, що змінюють кольори при кліку */
+
 #element-5,
 ul li:nth-child(2) {
     cursor: pointer;
