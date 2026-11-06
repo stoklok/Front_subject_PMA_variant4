@@ -1,8 +1,7 @@
-// Завдання 1. n = 4, тому номер елемента: (4 mod 10) + 1 = 5
 const fifthElement = document.getElementById("element-5");
 const sixthElement = document.querySelector("ul li:nth-child(2)");
 
-// Кожен клік перемикає елемент між двома колірними схемами
+
 function addColorToggle(element, firstScheme, secondScheme) {
     let useFirstScheme = true;
 
@@ -25,7 +24,7 @@ addColorToggle(
     { background: "#ffff00", text: "#000000" }
 );
 
-// Завдання 2. Кнопки керування зображеннями
+
 const IMAGE_SRC = "https://cdn.sanity.io/images/nxpteyfv/goguides/e3115b9ee7040c9515b8b45dbedbd82b0b709ddb-1600x1066.jpg";
 const DEFAULT_WIDTH = 600;
 const MIN_WIDTH = 100;
@@ -33,7 +32,6 @@ const WIDTH_STEP = 50;
 
 const gallery = document.getElementById("gallery");
 
-// Збільшення та зменшення діють на останнє зображення
 function getLastImage() {
     const images = gallery.querySelectorAll("img");
     return images[images.length - 1];
